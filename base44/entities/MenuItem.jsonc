@@ -1,0 +1,28 @@
+{
+  "name": "MenuItem",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Menu item name"
+    },
+    "ingredient_cost": {
+      "type": "number",
+      "description": "Cost of ingredients per unit"
+    },
+    "sell_price": {
+      "type": "number",
+      "description": "Selling price per unit"
+    },
+    "weekly_units_sold": {
+      "type": "number",
+      "description": "Average weekly units sold"
+    }
+  },
+  "required": [
+    "name",
+    "ingredient_cost",
+    "sell_price",
+    "weekly_units_sold"
+  ]
+}

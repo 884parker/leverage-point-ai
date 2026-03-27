@@ -1,0 +1,27 @@
+{
+  "name": "OperatingExpense",
+  "type": "object",
+  "properties": {
+    "rent": {
+      "type": "number",
+      "description": "Monthly rent"
+    },
+    "utilities": {
+      "type": "number",
+      "description": "Monthly utilities"
+    },
+    "insurance": {
+      "type": "number",
+      "description": "Monthly insurance"
+    },
+    "internet_software": {
+      "type": "number",
+      "description": "Monthly internet and software costs"
+    },
+    "miscellaneous": {
+      "type": "number",
+      "description": "Monthly miscellaneous expenses"
+    }
+  },
+  "required": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Shift",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Shift name (e.g. Lunch, Dinner)"
+    },
+    "labor_cost": {
+      "type": "number",
+      "description": "Total labor cost for this shift"
+    },
+    "sales": {
+      "type": "number",
+      "description": "Total sales for this shift"
+    }
+  },
+  "required": [
+    "name",
+    "labor_cost",
+    "sales"
+  ]
+}

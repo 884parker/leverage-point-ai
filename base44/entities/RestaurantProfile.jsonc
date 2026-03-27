@@ -1,0 +1,21 @@
+{
+  "name": "RestaurantProfile",
+  "type": "object",
+  "properties": {
+    "restaurant_name": {
+      "type": "string",
+      "description": "Name of the restaurant"
+    },
+    "location": {
+      "type": "string",
+      "description": "Restaurant location"
+    },
+    "cuisine_type": {
+      "type": "string",
+      "description": "Type of cuisine served"
+    }
+  },
+  "required": [
+    "restaurant_name"
+  ]
+}
