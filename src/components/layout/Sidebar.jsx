@@ -43,7 +43,7 @@ export default function Sidebar() {
           </div>
           {!collapsed && (
             <div className="overflow-hidden">
-              <h1 className="text-[13px] font-bold text-white tracking-tight leading-tight">Leverage Point AI</h1>
+              <h1 className="text-[13px] font-bold text-foreground tracking-tight leading-tight">Leverage Point AI</h1>
               <p className="text-[10px] text-sidebar-foreground/50 font-medium tracking-wide uppercase mt-0.5">Revenue Accelerator</p>
             </div>
           )}
@@ -86,9 +86,9 @@ export default function Sidebar() {
 
       {/* Suite badge */}
       {!collapsed && (
-        <div className="px-4 py-3 mx-3 mb-3 rounded-lg bg-sidebar-accent/60 border border-sidebar-border">
-          <p className="text-[10px] text-sidebar-foreground/40 uppercase tracking-wider font-semibold mb-0.5">Part of</p>
-          <p className="text-[11px] text-sidebar-foreground/70 font-semibold">Leverage Point AI Suite</p>
+        <div className="px-4 py-3 mx-3 mb-3 rounded-lg bg-sidebar-accent border border-sidebar-border">
+          <p className="text-[10px] text-sidebar-foreground/50 uppercase tracking-wider font-semibold mb-0.5">Part of</p>
+          <p className="text-[11px] text-sidebar-foreground font-semibold">Leverage Point AI Suite</p>
         </div>
       )}
 

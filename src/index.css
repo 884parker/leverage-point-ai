@@ -49,15 +49,15 @@
 
     --radius: 0.75rem;
 
-    /* Sidebar — deep warm dark, matching Review Intelligence */
-    --sidebar-background: 20 18% 10%;
-    --sidebar-foreground: 30 12% 70%;
-    --sidebar-primary: 345 60% 45%;
+    /* Sidebar — clean white */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 20 14% 40%;
+    --sidebar-primary: 345 60% 35%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 20 18% 16%;
-    --sidebar-accent-foreground: 30 12% 90%;
-    --sidebar-border: 20 18% 18%;
-    --sidebar-ring: 345 60% 45%;
+    --sidebar-accent: 30 10% 95%;
+    --sidebar-accent-foreground: 20 14% 12%;
+    --sidebar-border: 30 10% 90%;
+    --sidebar-ring: 345 60% 35%;
   }
 }
 
