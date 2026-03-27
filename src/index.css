@@ -7,74 +7,57 @@
 @layer base {
   :root {
     --font-inter: 'Inter', sans-serif;
-    --background: 220 20% 97%;
-    --foreground: 222 47% 11%;
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
-    --primary: 160 84% 39%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 222 47% 11%;
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
-    --accent: 160 84% 39%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 160 84% 39%;
-    --chart-1: 160 84% 39%;
-    --chart-2: 199 89% 48%;
-    --chart-3: 43 96% 56%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-    --radius: 0.75rem;
-    --sidebar-background: 222 47% 11%;
-    --sidebar-foreground: 220 14% 80%;
-    --sidebar-primary: 160 84% 39%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 222 40% 16%;
-    --sidebar-accent-foreground: 220 14% 90%;
-    --sidebar-border: 222 40% 18%;
-    --sidebar-ring: 160 84% 39%;
-  }
 
-  .dark {
-    --background: 222 47% 6%;
-    --foreground: 220 14% 96%;
-    --card: 222 47% 9%;
-    --card-foreground: 220 14% 96%;
-    --popover: 222 47% 9%;
-    --popover-foreground: 220 14% 96%;
-    --primary: 160 84% 39%;
+    /* Background — warm neutral, not cold blue */
+    --background: 30 12% 96%;
+    --foreground: 20 14% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 12%;
+
+    /* PRIMARY — burgundy / wine, matching Review Intelligence */
+    --primary: 345 60% 35%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 222 40% 14%;
-    --secondary-foreground: 220 14% 96%;
-    --muted: 222 40% 14%;
-    --muted-foreground: 220 9% 55%;
-    --accent: 160 84% 39%;
+
+    --secondary: 30 10% 94%;
+    --secondary-foreground: 20 14% 12%;
+
+    --muted: 30 10% 94%;
+    --muted-foreground: 20 8% 46%;
+
+    --accent: 345 60% 35%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 62% 30%;
+
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
-    --border: 222 40% 18%;
-    --input: 222 40% 18%;
-    --ring: 160 84% 39%;
-    --chart-1: 160 84% 39%;
-    --chart-2: 199 89% 48%;
-    --chart-3: 43 96% 56%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-    --sidebar-background: 222 47% 8%;
-    --sidebar-foreground: 220 14% 80%;
-    --sidebar-primary: 160 84% 39%;
+
+    /* Positive green — kept only for metric indicators */
+    --positive: 158 64% 36%;
+    --positive-foreground: 0 0% 100%;
+
+    --border: 30 10% 88%;
+    --input: 30 10% 88%;
+    --ring: 345 60% 35%;
+
+    --chart-1: 345 60% 35%;
+    --chart-2: 158 64% 36%;
+    --chart-3: 43 96% 52%;
+    --chart-4: 220 70% 50%;
+    --chart-5: 30 90% 55%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar — deep warm dark, matching Review Intelligence */
+    --sidebar-background: 20 18% 10%;
+    --sidebar-foreground: 30 12% 70%;
+    --sidebar-primary: 345 60% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 222 40% 14%;
-    --sidebar-accent-foreground: 220 14% 90%;
-    --sidebar-border: 222 40% 16%;
-    --sidebar-ring: 160 84% 39%;
+    --sidebar-accent: 20 18% 16%;
+    --sidebar-accent-foreground: 30 12% 90%;
+    --sidebar-border: 20 18% 18%;
+    --sidebar-ring: 345 60% 45%;
   }
 }
 
